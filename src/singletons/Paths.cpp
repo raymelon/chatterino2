@@ -97,7 +97,8 @@ void Paths::initRootDirectory()
 
         // permanent installation
         QString path =
-            QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+            "C:\\Users\\raymel\\Documents\\Sides\\chatterino2\\DevAppData-2.2.3-beta2-MOD";
+        //QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
         if (path.isEmpty())
         {
             throw std::runtime_error("Could not create directory \""s +
